@@ -15,20 +15,20 @@
     {
       "id": "1",
       "name": "Binta",
-      "avatar": "binta.png",
+      "avatar": "astou.jpeg",
       "phone": "771992843"
     },
     {
       "id": "2",
       "name": "Alioune",
-      "avatar": "alioune.png",
+      "avatar": "astou.jpeg",
       "phone": "772211212"
     },
     {
       "id": "b9ca",
       "name": "Astou Mbow", 
       "phone": "771231144",
-      "avatar": ""
+      "avatar": "astou.jpeg"
     }
   ],
   "messages": [
