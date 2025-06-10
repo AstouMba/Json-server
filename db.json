@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "username": "binta",
+      "phone": "771992843",
+      "id": "55a2"
+    },
+    {
+      "username": "alioune",
+      "phone": "771221122",
+      "id": "4acd"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Binta",
+      "avatar": "binta.png",
+      "phone": "771992843"
+    },
+    {
+      "id": "2",
+      "name": "Alioune",
+      "avatar": "alioune.png",
+      "phone": "772211212"
+    },
+    {
+      "id": "b9ca",
+      "name": "Astou Mbow",
+      "phone": "771231144",
+      "avatar": ""
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "from": 1,
+      "to": 2,
+      "text": "Hello !",
+      "timestamp": "2025-06-08T15:30:00Z"
+    },
+    {
+      "id": "2",
+      "from": 2,
+      "to": 1,
+      "text": "Salut !",
+      "timestamp": "2025-06-08T15:31:00Z"
+    }
+  ]
+}
