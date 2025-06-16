@@ -27,36 +27,8 @@
       "userId": "4acd"
     }
   ],
-  "groupes": [
-    {
-      "id": "1", 
-      "name": "Famille",
-      "avatar": "famille.jpeg",
-      "members": ["55a2", "4acd"] 
-    },
-    {
-      "id": "2",
-      "name": "Amis",
-      "avatar": "amis.jpeg",
-      "members": ["55a2", "b9ca"]
-    }
-  ],
-  "groupMessages": [
-    {
-      "id": "1",
-      "groupId": "1",
-      "from": "55a2",
-      "text": "Bonjour la famille !",
-      "timestamp": "2025-06-08T15:00:00Z"
-    },
-    {
-      "id": "2",
-      "groupId": "2",
-      "from": "b9ca",
-      "text": "Salut les amis !",
-      "timestamp": "2025-06-08T15:05:00Z"
-    }
-  ],
+  "groupes": [],
+  "groupMessages": [],
   "messages": [
     {
       "id": "1",
