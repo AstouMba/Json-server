@@ -27,8 +27,21 @@
       "userId": "4acd"
     }
   ],
+  "conversations": [
+    {
+      "id": "1",
+      "participants": [1, 2],
+      "lastMessageId": "2"
+    },
+    {
+      "id": "2",
+      "participants": [1, 3],
+      "lastMessageId": "5"
+    }
+  ],
   "groupes": [],
   "groupMessages": [],
+
   "messages": [
     {
       "id": "1",
