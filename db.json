@@ -31,12 +31,14 @@
     {
       "id": "1",
       "participants": [1, 2],
-      "lastMessageId": "2"
+      "lastMessageId": "2",
+      "archived": false
     },
     {
       "id": "2",
       "participants": [1, 3],
-      "lastMessageId": "5"
+      "lastMessageId": "5",
+      "archived": false
     }
   ],
   "groupes": [],
