@@ -1,16 +1,12 @@
-// Script Node.js pour nettoyer automatiquement un fichier JSON de messages (db.json)
-// Garde uniquement les clés utiles : id, from, to, text, timestamp, status
-// Lance : node clean-messages.js
-
 const fs = require('fs');
 
-// Chemin vers ton fichier messages (à adapter si besoin)
-const FILE_PATH = './db.json'; // ou './messages.json' selon ton projet
+// Chemin du fichier à nettoyer (adapte si ce n'est pas 'db.json')
+const FILE_PATH = './db.json';
 
 // Clés à garder
 const KEYS_TO_KEEP = ['id', 'from', 'to', 'text', 'timestamp', 'status'];
 
-// Lis le fichier JSON
+// Lecture du fichier JSON
 const rawData = fs.readFileSync(FILE_PATH, 'utf8');
 const db = JSON.parse(rawData);
 
@@ -31,5 +27,3 @@ if (Array.isArray(db.messages)) {
 // Sauvegarde du fichier nettoyé
 fs.writeFileSync(FILE_PATH, JSON.stringify(db, null, 2), 'utf8');
 console.log('Messages nettoyés !');
-
-// Astuce : fais une copie de sauvegarde de db.json avant d’exécuter ce script.
